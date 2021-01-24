@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/management_mockup.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Potta+One&display=swap" rel="stylesheet">
+  <title>Monitoring console</title>
+</head>
+
+<body>
+  <div class="logo">
+    <p class="logo">MO<span class="tree-text">TREE</span>BOT</p>
+  </div>
+
+  <div class="menu">
+    <span class="menu-entry">List of robots</span>
+    <span class="menu-entry">Robots status</span>
+    <span id="menu-entry-selected" class="menu-entry">Events</span>
+    <span class="menu-entry">Locations map</span>
+    <span class="menu-entry">Reports</span>
+  </div>
+
+  <div class="div-events-list">
+    <table>
+      <thead>
+        <tr>
+          <th>Date time</th>
+          <th>Event</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2021/10/01 10:22am</td>
+          <td>Possible violence or vandalism.</td>
+          <td>Aisle 5.</td>
+          <td>Cleared.</td>
+        </tr>
+        <tr>
+          <td>2021/15/01 2:46pm</td>
+          <td>People running.</td>
+          <td>Aisle 4.</td>
+          <td>Cleared.</td>
+        </tr>
+        <tr>
+          <td>2021/21/01 5:03pm</td>
+          <td>Identified subject reported in the database.</td>
+          <td>Aisle 9.</td>
+          <td class="td-alert-entry"><strong>Alert!</strong></td>
+        </tr>
+        <tr id="event-list-selected">
+          <td>2021/21/01 5:03pm</td>
+          <td>Kid fallen on the ground.</td>
+          <td>Aisle 9.</td>
+          <td class="td-alert-entry"><strong>Alert!</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="div-event-details">
+    <p><strong>Event:</strong> Kid fallen on the ground.</p>
+    <p><strong>Status:</strong> <span class="td-alert-entry">Alert!</span></p>
+    <p><strong>Live AI anaysis video:</strong></p>
+    <img class="img-live-video" src="/home/theuser/AAData/Documents2/GestionPersonalDeProyectosYPlanesNegocio/20200903_BusinessPlans/Resources/YC_Storyboard/Scene_2_v1.png" alt="">
+    <span class="span-send-audio">Send audio</span>
+    <span class="span-manual-control">Manual control</span>
+    <span class="span-dismiss">Dismiss</span>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+div {
+  background-color: blue;
+}
+
+body {
+  margin: 0;
+  background-color: #1e2022;
+}
+
+td {
+  padding: 1px 10px;
+}
+
+.logo {
+  background-color: #52616b;
+  font-family: 'Coda Caption', sans-serif;
+  height: 25px;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+.menu {
+  background-color: #52616b;
+  height: 25px;
+  left: 160px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.tree-text {
+  color: #00d000;
+  font-family: 'Potta One', cursive;
+}
+
+.menu-entry {
+  padding: 20px;
+  color: #f0f5f9;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.div-events-list {
+  background-color: #354555;
+  color: #c9d6df;
+  font-family: sans-serif;
+  font-size: small;
+  height: 500px;
+  left: 10px;
+  position: absolute;
+  top: 80px;
+  width: 450px;
+}
+
+.div-event-details {
+  background-color: #354555;
+  color: #c9d6df;
+  font-family: sans-serif;
+  font-size: medium;
+  height: 500px;
+  left: 480px;
+  padding-left: 20px;
+  position: absolute;
+  top: 80px;
+  width: 580px;
+}
+
+.td-alert-entry {
+  color: #ec524b;
+}
+
+.img-live-video {
+  width: 510px;
+}
+
+.span-send-audio {
+  background-color: #52616b;
+  bottom: 10px;
+  height: 30px;
+  left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: absolute;
+  width: 100px;
+}
+
+.span-manual-control{
+  background-color: #52616b;
+  bottom: 10px;
+  height: 30px;
+  left: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: absolute;
+  width: 120px;
+}
+
+.span-dismiss {
+  background-color: #52616b;
+  bottom: 10px;
+  height: 30px;
+  left: 440px;
+  padding-left: 15px;
+  padding-top: 10px;
+  position: absolute;
+  width: 80px;
+}
+
+#menu-entry-selected {
+  background-color: #c9d6df;
+  color: #1e2022;
+}
+
+#event-list-selected {
+  background-color: #c9d6df;
+  color: #1e2022;
+}
