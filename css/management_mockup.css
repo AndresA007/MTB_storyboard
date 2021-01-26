@@ -41,14 +41,14 @@ td {
   padding: 20px;
   color: #f0f5f9;
   font-family: sans-serif;
-  font-size: small;
+  font-size: 0.81rem;
 }
 
 .div-events-list {
   background-color: #354555;
   color: #c9d6df;
   font-family: sans-serif;
-  font-size: small;
+  font-size: 0.81rem;
   height: 500px;
   left: 10px;
   position: absolute;
@@ -60,7 +60,6 @@ td {
   background-color: #354555;
   color: #c9d6df;
   font-family: sans-serif;
-  font-size: medium;
   height: 500px;
   left: 480px;
   padding-left: 20px;
@@ -71,6 +70,11 @@ td {
 
 .td-alert-entry {
   color: #ec524b;
+}
+
+.img-histogram {
+  margin-top: 100px;
+  width: 510px;
 }
 
 .img-live-video {
