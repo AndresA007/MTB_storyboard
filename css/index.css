@@ -6,14 +6,26 @@ body {
 h1 {
   color: #11999e;
   font-family: sans-serif;
+  font-size: 2.5rem;
   line-height: 2;
   margin-top: 0;
 }
 
 h2 {
   color: #11999e;
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2;
   margin-top: 0;
-  padding: 40px 0 20px 0;
+  padding: 10px 0 10px 0;
+}
+
+hr {
+  border-color: #30e3ca;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 5px;
+  width: 10%;
 }
 
 img {
@@ -32,21 +44,52 @@ table {
   font-size: 1.2rem;
   margin: auto;
   text-align: justify;
-  width: 90%;
 }
 
 td {
   width: 50%;
 }
 
+.h1-motreebot {
+  color: #40514e;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.tree-text {
+  color: #00d000;
+  font-family: 'Potta One', cursive;
+}
+
+.div-intro {
+  background-color: #e4f9f5;
+  padding-bottom: 50px;
+}
+
+.div-team {
+  background-color: #30e3ca;
+  padding-bottom: 50px;
+}
+
 .scenario-1 {
   background-color: #e4f9f5;
+  padding: 50px 50px 0 50px;
+}
+
+.div-centered-paragraph {
+  margin: auto;
+  width: 50%;
 }
 
 .scenario-2 {
-  background-color: #30e3ca;
+  background-color: #e4f9f5;
+  padding: 40px 50px 50px 50px;
 }
 
 .td-scene-img {
   text-align: center;
+}
+
+.div-lab-progress {
+  background-color: #30e3ca;
+  padding: 50px;
 }
