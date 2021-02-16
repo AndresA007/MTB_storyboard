@@ -3,93 +3,258 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/index.css">
   <link rel="icon" href="images/favicon.ico">
+  <title>Motreebot proposal</title>
+
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Potta+One&display=swap" rel="stylesheet">
-  <title>Motreebot storyboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Potta+One&family=Montserrat:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="div-intro">
-    <h1 class="h1-motreebot">MO<span class="tree-text">TREE</span>BOT</h1>
-    <div class="div-centered-paragraph">
-      <p>Find here the product proposal storyboard and a sample of the laboratory work done on hardware and software prototypes.</p>
+
+  <section class="colored-section" id="title">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href=""><span class="motreebot-logo">MO<span class="logo-tree-text">TREE</span>BOT</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#storyboards">Storyboards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prototyping">Prototypes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Background image -->
+
+    <img class="title-background-img" src="images/Title_background2.png" alt="title-background-img">
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="big-heading">Surveillance & Advertising in one solution.</h1>
+      </div>
+      <div class="col-lg-6">
+        <div class="title-text">
+          Find here storyboards with the applicable scenarios for the proposed service and a short demo of the progress had on prototyping.
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- <div class="div-team">
-    <h1>The Team</h1>
-    <div class="div-centered-paragraph">
-      <p>Our team includes young, talented, passionate and energetic entrepreneurs, who have leaded innovative projects on the field of robotics, solar energy and green transportation. Now their talent and hard work are set together to make Motreebot
-        become a reality.</p>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-dollar-sign fa-4x"></i>
+          <h3 class="feature-title">Cost effective.</h3>
+          <p>Lower cost compared to current solutions.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-battery-full fa-4x"></i>
+          <h3 class="feature-title">Long battery life.</h3>
+          <p>6 hours of continuous operation.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Intelligent Advertising.</h3>
+          <p>Dynamic content change.</p>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Storyboards -->
+
+  <section class="colored-section" id="storyboards">
+    <div class="container-fluid">
+
+
+      <h2 class="section-heading">Product concept storyboard</h2>
+      <p class="section-text">In the following scenarios are depicted the applications of the Motreebot service.</p>
+      <h3 class="section-sub-heading">Scenario 1</h3>
+
+      <div class="row">
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Mall_outdoor.png" class="card-img-top" alt="scene-1-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">1. The Motreebot Surveillance Service is being used in a mall.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Scene_1_v1.png" class="card-img-top" alt="scene-2-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">2. One of the robots is patrolling around the mall’s aisles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Scene_2_v1.png" class="card-img-top" alt="scene-3-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">3. The robot uses AI to identify the faces of people and other situations. The system can be trained to identify additional situations depending on the needs of the customer, this would be charged as additional fee.
+                In this case, it identifies that one kid has fallen to the floor and also that one of the customers has been published by the police as suspicious subject.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Scene_3_v1.png" class="card-img-top" alt="scene-4-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">4. A notification is sent to the mall’s security and administrative office. The operator watches the live video of the robot.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/MonitoringConsoleMockup_v1.1.png" class="card-img-top" alt="scene-5-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">5. The monitoring console permits to manage all the fleet of robots, check the reported events, send audio and remotely control the robots.</p>
+              <a class="btn btn-block btn-outline-info" href="management_mockup.html" role="button">See the mockup</a>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Scene_6_v1.png" class="card-img-top" alt="scene-6-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">6. The security operator of the mall communicates with the fallen kid through the robot, using audio streaming to inquire if he is fine. Besides, he already sent a notification to the police to validate the face of
+                the suspicious subject.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-sub-heading">Scenario 2</h3>
+
+      <div class="row">
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Ad_Scene_1_v1.png" class="card-img-top" alt="ad-scene-1-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">1. In a different place, the robot is wearing advertising screens while moving close to the pedestrians.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Ad_Scene_2_v1.png" class="card-img-top" alt="ad-scene-2-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">2. The robot uses one of its cameras to realize that one of the customers is staring at the screen, hence it stops for a moment and reproduces an audio advertisement related to the content on the screen, so the
+                customer gets more information of its interest.</p>
+            </div>
+          </div>
+        </div>
+        <div class="storyboard-column col-lg-6">
+          <div class="card">
+            <img src="images/Ad_Scene_3_v1.png" class="card-img-top" alt="ad-scene-3-img">
+            <div class="storyboard-box card-body">
+              <p class="card-text">3. The advertiser checks the report about how effective was the visibility of the purchased advertisement.</p>
+              <a class="btn btn-block btn-outline-info" href="ad_report_mockup.html" role="button">See the mockup</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/e731E7FMcdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div> -->
-  <div class="scenario-1">
-    <h1>Product proposal Storyboard</h1>
-    <div class="div-centered-paragraph">
-      <p>In the following scenarios are depicted two applications of the Motreebot service, they can be simultaneously performed using the same robot platform.</p>
+
+  </section>
+
+
+  <!-- Prototyping -->
+
+  <section class="white-section" id="prototyping">
+    <div class="container-fluid">
+
+      <h2 class="section-heading">Prototyping</h2>
+      <p class="section-text">These are the candidate designs for the look-like prototype.</p>
+
+      <div id="prototyping-carousel" class="carousel slide looklike-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#prototyping-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#prototyping-carousel" data-slide-to="1"></li>
+          <li data-target="#prototyping-carousel" data-slide-to="2"></li>
+          <li data-target="#prototyping-carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active prototyping-item">
+            <img class="h-100" src="images/Look-like_des_candidate_1.jpeg" alt="design-candidate-1-img">
+          </div>
+          <div class="carousel-item prototyping-item">
+            <img class="h-100" src="images/Look-like_des_candidate_2.png" alt="design-candidate-2-img">
+          </div>
+          <div class="carousel-item prototyping-item">
+            <img class="h-100" src="images/Look-like_des_candidate_3.png" alt="design-candidate-3-img">
+          </div>
+          <div class="carousel-item prototyping-item">
+            <img class="h-100" src="images/Look-like_des_candidate_4.jpeg" alt="design-candidate-4-img">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#prototyping-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#prototyping-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <p class="section-text">Progress on the work-like prototype.</p>
+
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/64iOAAGwtqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
-    <h2>Scenario 1</h2>
-    <table>
-      <tr>
-        <td class="td-scene-img"><img src="images/Mall_outdoor.png" alt="scene-1-img"></td>
-        <td>1. The Motreebot Surveillance Service is being used in a mall.</td>
-      </tr>
-      <tr>
-        <td>2. One of the robots is patrolling around the mall’s aisles.</td>
-        <td class="td-scene-img"><img src="images/Scene_1_v1.png" alt="scene-2-img"></td>
-      </tr>
-      <tr>
-        <td class="td-scene-img"><img src="images/Scene_2_v1.png" alt="scene-3-img"></td>
-        <td>3. The robot uses AI to identify the faces of people and other situations. The system can be trained to identify additional situations depending on the needs of the customer, this would be charged as additional fee. In this case, it
-          identifies that one kid has fallen to the floor and also that one of the customers has been published by the police as suspicious subject.</td>
-      </tr>
-      <tr>
-        <td>4. A notification is sent to the mall’s security and administrative office. The operator watches the live video of the robot.</td>
-        <td class="td-scene-img"><img class="img-scene" src="images/Scene_3_v1.png" alt="scene-4-img"></td>
-      </tr>
-      <tr>
-        <td class="td-scene-img"><img class="img-scene" src="images/MonitoringConsoleMockup_v1.1.png" alt="scene-5-img"></td>
-        <td>5. The monitoring console permits to manage all the fleet of robots, check the reported events, send audio and remotely control the robots.
-          <br><br> <a href="management_mockup.html">Go to Management Console mockup</a>
-        </td>
-      </tr>
-      <tr>
-        <td>6. The security operator of the mall communicates with the fallen kid through the robot, using audio streaming to inquire if he is fine. Besides, he already sent a notification to the police to validate the face of the suspicious subject.
-        </td>
-        <td class="td-scene-img"><img class="img-scene" src="images/Scene_6_v1.png" alt="scene-6-img"></td>
-      </tr>
-    </table>
-  </div>
-  <div class="scenario-2">
-    <hr>
-    <h2>Scenario 2</h2>
-    <table>
-      <tr>
-        <td class="td-scene-img"><img class="img-scene" src="images/Ad_Scene_1_v1.png" alt="ad-scene-1-img"></td>
-        <td>1. In a different place, the robot is wearing advertising screens while moving close to the pedestrians.</td>
-      </tr>
-      <tr>
-        <td>2. The robot uses one of its cameras to realize that one of the customers is staring at the screen, hence it stops for a moment and reproduces an audio advertisement related to the content on the screen, so the customer gets more
-          information of its interest.</td>
-        <td class="td-scene-img"><img class="img-scene" src="images/Ad_Scene_2_v1.png" alt="ad-scene-2-img"></td>
-      </tr>
-      <tr>
-        <td class="td-scene-img"><img class="img-scene" src="images/Ad_Scene_3_v1.png" alt="ad-scene-3-img"></td>
-        <td>3. The advertiser checks the report about how effective was the visibility of the purchased advertisement.
-          <br><br> <a href="ad_report_mockup.html">Go to Advertisement Report mockup</a>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="div-lab-progress">
-    <h1>Lab prototyping</h1>
-    <div class="div-centered-paragraph">
-      <p>This is one of the Lab prototypes used to work on the autonomous navigation of the Unmanned Ground Vehicles. Work is in progress...</p>
+
+  </section>
+
+
+  <!-- =========================================================================== -->
+
+  <!-- <h1>The Team</h1>
+  Our team includes young, talented, passionate and energetic entrepreneurs, who have leaded innovative projects on the field of robotics, solar energy and green transportation. Now their talent and hard work are set together to make Motreebot
+  become a reality.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/e731E7FMcdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+  <!-- Footer -->
+
+  <section class="colored-section" id="footer">
+    <div class="container-fluid">
     </div>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/64iOAAGwtqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  </section>
+
+
 </body>
 
 </html>

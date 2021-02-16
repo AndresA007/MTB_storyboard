@@ -1,95 +1,167 @@
 body {
-  margin: 0;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-h1 {
-  color: #11999e;
-  font-family: sans-serif;
-  font-size: 2.5rem;
-  line-height: 2;
-  margin-top: 0;
-}
-
-h2 {
-  color: #11999e;
-  font-size: 2.1rem;
-  font-weight: 500;
-  line-height: 2;
-  margin-top: 0;
-  padding: 10px 0 10px 0;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 hr {
-  border-color: #30e3ca;
   border-style: none;
   border-bottom-style: dotted;
   border-width: 5px;
   width: 10%;
 }
 
-img {
-  width: 95%;
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-p {
-  color: #40514e;
-  font-family: serif;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-sub-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 20% auto;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #11698e;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #f8f1f1;
+  /* background-color: #fff; */
+  color: #303030;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
   font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
 }
 
-table {
-  color: #40514e;
-  font-family: serif;
-  font-size: 1.2rem;
-  margin: auto;
-  text-align: justify;
-}
-
-td {
-  width: 50%;
-}
-
-.h1-motreebot {
-  color: #40514e;
+.motreebot-logo {
+  color: #f8f1f1;
   font-family: 'Coda Caption', sans-serif;
 }
 
-.tree-text {
+.logo-tree-text {
   color: #00d000;
   font-family: 'Potta One', cursive;
 }
 
-.div-intro {
-  background-color: #e4f9f5;
-  padding-bottom: 50px;
+/* Tite Section */
+
+#title {
+  padding: 3% 10% 7%;
+  text-align: left;
 }
 
-.div-team {
-  background-color: #30e3ca;
-  padding-bottom: 50px;
+.title-background-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
-.scenario-1 {
-  background-color: #e4f9f5;
-  padding: 50px 50px 0 50px;
+.title-text {
+  background-color: #19456b;
+  border: 10px solid #16c79a;
+  margin: 10% 3% 10% 15%;
+  padding: 7%;
 }
 
-.div-centered-paragraph {
-  margin: auto;
-  width: 50%;
+/* Features Section */
+
+#features {
+  position: relative;
 }
 
-.scenario-2 {
-  background-color: #e4f9f5;
-  padding: 40px 50px 50px 50px;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-.td-scene-img {
-  text-align: center;
+.feature-box {
+  padding: 5%;
 }
 
-.div-lab-progress {
-  background-color: #30e3ca;
-  padding: 50px;
+.icon {
+  color: #11698e;
+  margin-bottom: 1rem;
+}
+
+/* Storyboards Section */
+
+.section-text {
+  margin: 3% 20% 15%;
+  font-size: 1.5rem;
+}
+
+.storyboard-column {
+  padding: 3% 2%;
+}
+
+.storyboard-box {
+  background-color: #19456b;
+  text-align: left;
+}
+
+/* Prototyping Section */
+
+.looklike-carousel {
+  margin-bottom: 15%;
+}
+
+.prototyping-item {
+  background-color: #11698e;
+  height: 350px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #16c79a;
+}
+
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-text {
+    margin: 10% 15%;
+  }
+
+  .prototyping-item {
+    height: 250px;
+  }
+
 }
