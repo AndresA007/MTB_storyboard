@@ -33,6 +33,11 @@ hr {
   margin: 20% auto;
 }
 
+.section-text {
+  margin: 3% 20% 15%;
+  font-size: 1.5rem;
+}
+
 /* Containers */
 .container-fluid {
   padding: 7% 15%;
@@ -119,11 +124,6 @@ hr {
 
 /* Storyboards Section */
 
-.section-text {
-  margin: 3% 20% 15%;
-  font-size: 1.5rem;
-}
-
 .storyboard-column {
   padding: 3% 2%;
 }
@@ -151,20 +151,79 @@ hr {
 }
 
 
+
+
 @media (max-width: 992px) {
+
+  /* Headings (mobile) */
+
+  .big-heading {
+    font-size: 4.2rem;
+  }
+
+  .section-text {
+    margin: 4% 15% 15%;
+    font-size: 1.8rem;
+  }
+
+  /* Containers (mobile) */
+
+  .container-fluid {
+    padding: 10% 5%;
+  }
+
+  /* Navigation Bar (mobile) */
+
+  .motreebot-logo {
+    font-size: 2rem;
+  }
+
+  .logo-tree-text {
+    font-size: 2rem;
+  }
+
+  /* Tite Section (mobile) */
+
   #title {
     text-align: center;
   }
 
-  .container-fluid {
-    padding: 7% 0;
+  .nav-item {
+    padding: 30px 18px;
   }
 
   .nav-link {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .title-text {
-    margin: 10% 15%;
+    font-size: 1.8rem;
+    margin: 10% 5%;
+    padding: 5%;
   }
+
+  /* Features Section (mobile) */
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  .feature-text {
+    font-size: 1.8rem;
+  }
+
+  .feature-box {
+    padding: 7%;
+  }
+
+  .icon {
+    margin-bottom: 2rem;
+  }
+
+  /* Storyboards Section (mobile) */
+
+  .card-text {
+    font-size: 1.8rem;
+  }
+
 }
