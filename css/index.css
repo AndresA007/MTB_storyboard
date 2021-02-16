@@ -157,12 +157,11 @@ hr {
   }
 
   .container-fluid {
-    padding: 7% 5%;
+    padding: 7% 0;
   }
 
   .nav-link {
     font-size: 2rem;
-    font-family: 'Montserrat-Light', sans-serif;
   }
 
   .title-text {
@@ -172,5 +171,4 @@ hr {
   .prototyping-item {
     height: 250px;
   }
-
 }
