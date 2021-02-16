@@ -156,6 +156,15 @@ hr {
     text-align: center;
   }
 
+  .container-fluid {
+    padding: 7% 5%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+  }
+
   .title-text {
     margin: 10% 15%;
   }
